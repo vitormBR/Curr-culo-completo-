@@ -1,2 +1,2 @@
-# Curr-culo-completo-
-Currículo pessoal
+# Curriculo-completo-
+Currículo pessoal de Vitor Miguel
