@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Orçamento Mensal</title>
+    <script src="js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculo4.css">
+</head>
+
+<body>
+
+<div class="menu">
+    <img src="zec.png">
+    <div class="nome">
+        <h1>Seu Zé Calcula</h1>
+    </div>
+
+    <ul>
+        <input type="text" id="nomecalculo" placeholder="Digite o nome do cálculo desejado">
+        <button type="button" onclick="buscarcalculo()"><img src="lupa.png"></button>
+    </ul>
+</div>
+
+<button class="voltar" onclick="comecaragora()">Voltar</button>
+<h1>Orçamento Mensal</h1>
+
+<div class="calculo">
+
+    <div class="top-row">
+
+        <div class="renda">
+            <label for="renda">Digite sua renda mensal:</label>
+            <input type="number" id="renda" min="0" value="1">
+        </div>
+
+        <div class="necessarios">
+            <label for="nece">Gastos necessários (aluguel, contas, etc.):</label>
+            <input type="number" id="nece" min="0" value="1">
+        </div>
+
+    </div>
+
+    <div class="nnecessarios">
+        <label for="nnece">Gastos não essenciais (lazer, compras, etc.):</label>
+        <input type="number" id="nnece" min="0" value="1">
+    </div>
+
+    <div class="resultado">
+        <button onclick="calcularorçamento()">Calcular</button>
+        <p id="resultado">Resultado:</p>
+    </div>
+
+</div>
+
+</body>
+</html>

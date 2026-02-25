@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Compras Futuras</title>
+    <script src="js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculo1.css">
+</head>
+
+
+<body>
+<div class="menu">
+    <img src="zec.png">
+    <div class="nome">
+        <h1>Seu Zé Calcula</h1>
+    </div>
+
+<ul>
+    <input type="text" id="nomecalculo" placeholder="Digite o nome do cálculo desejado">
+    <button type="button" onclick="buscarcalculo()"><img src="lupa.png"></button>
+</ul>
+
+</div>
+
+<button class="voltar" onclick="comecaragora()">Voltar</button>
+    <h1>Pagamentos Parcelados</h1>
+
+<div class="calculo">
+
+    <div class="top-row">
+        <div class="orcamento">
+            <label for="orcamento">Digite seu orçamento mensal:</label>
+            <input type="number" id="orcamento" min="0">
+        </div>
+
+        <div class="valortotal">
+            <label for="valor">Digite o valor total da compra:</label>
+            <input type="number" id="valor" min="0">
+        </div>
+    </div>
+
+    <div class="meses">
+        <label for="meses">Em quantos meses você espera realizar a compra:</label>
+        <input type="number" id="meses" min="0">
+    </div>
+
+    <div class="resultado">
+        <button onclick="calcularcomprasfutu()">Calcular</button>
+        <p id="resultado">Resultado:</p>
+    </div>    
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(270deg, #3131ce,	#4169E1, #1E90FF, #34a0a4);
+    background-size: 1000% 1000%; 
+    animation: gradientAnimation 25s ease infinite; 
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.container {
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+  margin-top: 130px;
+}
+.box{
+    margin-top: -450px;
+    margin-left: 130px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+.botao{
+  font-family: "Montserrat", sans-serif;
+  margin-top: -35px;
+  margin-left: 200px;
+  color: black;
+  padding: 25px 40px;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease;
+}
+
+.botao:hover {
+  top: -5px;
+}

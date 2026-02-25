@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guias de Uso</title>
+    <link rel="stylesheet" href="pagexplicaçao.css">
+    <script src="js.js" defer></script>
+</head>
+
+<body>
+
+<div class="menu">
+    <img src="zec.png">
+
+    <div class="nome">
+        <h1>Seu Zé Calcula</h1>
+    </div>
+
+    <ul>
+        <input type="text" id="nomecalculo" placeholder="Digite o nome do cálculo desejado">
+        <button type="button" onclick="buscarcalculo()"><img src="lupa.png"></button>
+    </ul>
+</div>
+
+<button class="voltar" onclick="comecaragora()">Voltar</button>
+
+<div class="container">
+
+    <h1>Guias de Uso das Ferramentas</h1>
+
+    <section>
+        <h2>1. Calculadora de Compras Parceladas</h2>
+
+        <h3>Objetivo:</h3>
+        <p>Esta ferramenta ajuda você a decidir se vale a pena comprar algo parcelado,
+           comparando o valor total da compra à vista e o valor total das parcelas.</p>
+
+        <h3>Como Usar:</h3>
+        <ul>
+            <li>Preço à vista: Insira o preço do item se fosse pago à vista.</li>
+            <li>Valor de cada parcela: Insira o valor de cada parcela.</li>
+            <li>Número de parcelas: Insira a quantidade de parcelas.</li>
+        </ul>
+
+        <h3>O que a ferramenta faz:</h3>
+        <p>Ela calcula o total das parcelas e compara esse valor com o preço à vista,
+           aplicando um limite de 15% a mais para definir se o parcelamento vale a pena.</p>
+
+        <h3>Resultado:</h3>
+        <ul>
+            <li>Compra recomendada: quando o total das parcelas é vantajoso.</li>
+            <li>Compra não recomendada: quando o total das parcelas é muito alto.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Orçamento Mensal</h2>
+
+        <h3>Objetivo:</h3>
+        <p>Ajuda você a avaliar se consegue planejar uma compra futura com base no seu orçamento atual.</p>
+
+        <h3>Como Usar:</h3>
+        <ul>
+            <li>Seu orçamento mensal: Insira sua renda disponível.</li>
+            <li>Valor do item desejado: Insira o valor do item desejado.</li>
+            <li>Número de meses: Insira em quantos meses deseja atingir esse valor.</li>
+        </ul>
+
+        <h3>O que a ferramenta faz:</h3>
+        <p>Calcula quanto você precisa economizar por mês e compara com 40% do seu orçamento mensal.</p>
+
+        <h3>Resultado:</h3>
+        <ul>
+            <li>Compra recomendada: se o valor a economizar cabe no orçamento.</li>
+            <li>Compra não recomendada: se o valor mensal é muito alto.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Calculadora de Investimentos</h2>
+
+        <h3>Objetivo:</h3>
+        <p>Permite simular o retorno de um investimento com base no valor inicial,
+           taxa de juros e tempo.</p>
+
+        <h3>Como Usar:</h3>
+        <ul>
+            <li>Valor inicial: quanto deseja investir.</li>
+            <li>Taxa de juros: percentual do rendimento.</li>
+            <li>Tempo: quanto tempo deixará investido.</li>
+            <li>Valor esperado: quanto deseja receber ao final.</li>
+        </ul>
+
+        <h3>O que a ferramenta faz:</h3>
+        <p>Calcula o valor final do investimento e compara com o valor esperado por você.</p>
+
+        <h3>Resultado:</h3>
+        <ul>
+            <li>Investimento recomendado: quando o valor final é próximo ou maior que o esperado.</li>
+            <li>Investimento não recomendado: quando o retorno é muito baixo.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Calculadora de Orçamento Pessoal</h2>
+
+        <h3>O que ela faz:</h3>
+        <p>Ajuda a verificar se você está gastando menos do que ganha e mantendo controle financeiro.</p>
+
+        <h3>Passos:</h3>
+        <ol>
+            <li>Renda Mensal: quanto você ganha.</li>
+            <li>Gastos Necessários: contas essenciais.</li>
+            <li>Outros Gastos: despesas variáveis e lazer.</li>
+        </ol>
+
+        <h3>O que a ferramenta vai dizer:</h3>
+        <ul>
+            <li>Se você está endividado.</li>
+            <li>Se pode melhorar.</li>
+            <li>Se está bem organizado.</li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>

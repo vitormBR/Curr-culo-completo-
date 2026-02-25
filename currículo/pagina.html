@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Currículo</title>
+
+  <style>
+    body {
+      font-family: Poppins, Helvetica, sans-serif;
+      margin: 0;
+      background: #0d0d0d;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 30px 20px ;
+      text-align: center;
+      border: 2px solid #ff0000;
+      box-shadow: 0 0 10px #ff0000, 0 0 20px rgba(255,0,0,0.4);
+    }
+
+    .foto {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ff0000;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px #ff0000;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ff0000;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .abc {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      border: 2px solid #ff0000;
+      border-radius: 12px;
+      background: #1a1a1a;
+      text-align: center;
+      box-shadow: 0 0 10px #ff0000, 0 0 20px rgba(255,0,0,0.4);
+    }
+
+    .linguasapr {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .linguasapr img {
+      width: 70px;
+      transition: 0.3s;
+    }
+
+    .linguasapr img:hover {
+      transform: scale(1.15);
+
+    }
+
+    .projeto {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      background: #0d0d0d;
+      border: 1px solid #;
+      border-radius: 10px;
+      padding: 20px;
+      flex-wrap: wrap;
+      transition: 0.3s;
+    }
+      
+     .projeto:hover {
+       transform: scale(1.025);
+     }
+	
+
+    .informacao {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      max-width: 70%;
+      text-align: left;
+    }
+
+    .informacao img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+
+    .botao {
+      background: #ff0000;
+      color: #0d0d0d;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      white-space: nowrap;
+      box-shadow: 0 0 10px #ff0000;
+	  
+    }
+
+    .botao:hover {
+      background: #ff1a1a;
+      box-shadow: 0 0 20px #ff0000;
+	  transform: scale(1.15);
+	  transition: 0.3s;
+    }
+
+    footer {
+      background: #;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+      border-top: 2px solid #ff0000;
+      box-shadow: 0 0 10px #ff0000;
+    }
+
+    .rsocial img {
+      width: 70px;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .rsocial img:hover {
+      transform: scale(1.15);
+    }
+
+   
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="foto.jpg" class="foto">
+    <h1>Vitor Miguel</h1>
+    <p>Futuro programador focado no back-end</p>
+  </header>
+
+  <div class="abc">
+    <h2>Um pouco sobre mim:</h2>
+    <p>
+      Atual estudante do curso de desenvolvimento de sistemas pelo IFPE Campus Jaboatão dos Guararapes
+    </p>
+  </div>
+
+  <div class="abc">
+    <h2>Linguagens:</h2>
+
+    <div class="linguasapr">
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+      </a>
+
+      <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Python" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+      </a>
+
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+      </a>
+
+      <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+      </a>
+    </div>
+  </div>
+
+  <div class="abc">
+    <h2>Projetos realizados:</h2>
+
+    <div class="projeto">
+
+      <div class="informacao">
+        <img src="zecalcula/zec.png" alt="Logo do projeto">
+
+        <div>
+          <h3>Seu Zé Calcula:</h3>
+          <p>
+            Site criado usando HTML, CSS e Javascript, com foco em ajudar pessoas idosas com cálculos do dia a dia 
+          </p>
+        </div>
+      </div>
+
+      <a href="zecalcula/pag1.html" class="botao">
+        Acessar site
+      </a>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Onde me encontrar:</p>
+
+    <div class="rsocial">
+      <a href="https://github.com/vitormBR" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s">
+      </a>
+
+      <a href="https://www.instagram.com/vitmn7" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+      </a>
+    </div>
+
+    <p>© 2026 — Vitor Miguel • Jaboatão-PE</p>
+  </footer>
+
+</body>
+</html>
